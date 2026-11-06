@@ -1,0 +1,77 @@
+# Build output listing generated at collection time: 2026-11-06 19:35:27 +0400
+# Indirect evidence that 'npm run build' completed: files written by vite build (modification time, size, SHA-256).
+# The build console output itself was not saved to a file.
+
+## apps/web/dist
+2026-11-06 18:20:33     44431 bytes  088a0033b03fd8ee…  apps/web/dist/assets/index-Bks24jkf.css
+2026-11-06 18:20:33    747687 bytes  d58f478bfd799dc1…  apps/web/dist/assets/index-Clb_BUr9.js
+2026-11-03 16:18:42      9522 bytes  61bc9a161de58248…  apps/web/dist/favicon.svg
+2026-11-03 16:18:42      5055 bytes  7ca2d67c9c3aebf5…  apps/web/dist/icons.svg
+2026-11-03 16:18:42    984543 bytes  68674b5c4c4439d3…  apps/web/dist/img/chef/12-avatar.jpg
+2026-11-03 16:18:42    794333 bytes  2d8f2496a62669a3…  apps/web/dist/img/chef/16-avatar.jpg
+2026-11-03 16:18:42    986268 bytes  1f271aeb10c45b70…  apps/web/dist/img/chef/17-avatar.jpg
+2026-11-03 16:18:42   1175720 bytes  d3699b634be43ca5…  apps/web/dist/img/chef/1-avatar.jpg
+2026-11-03 16:18:42      2391 bytes  02a5b3e2ed0aaa41…  apps/web/dist/img/chef/1-banner.jpg
+2026-11-03 16:18:42    744105 bytes  bcf901343ad63447…  apps/web/dist/img/chef/21-avatar.jpg
+2026-11-03 16:18:42   1060248 bytes  3bda621ce4eb18af…  apps/web/dist/img/chef/22-avatar.jpg
+2026-11-03 16:18:42    717177 bytes  75efe2e3d766d005…  apps/web/dist/img/chef/2-avatar.jpg
+2026-11-03 16:18:42      2404 bytes  01e5358988bd68d9…  apps/web/dist/img/chef/2-banner.jpg
+2026-11-03 16:18:42    582782 bytes  47f48a0ead4ec2b3…  apps/web/dist/img/chef/3-avatar.jpg
+2026-11-03 16:18:42      2578 bytes  0201ec2acf7454a4…  apps/web/dist/img/chef/3-banner.jpg
+2026-11-03 16:18:42    805250 bytes  837dd7aae941f325…  apps/web/dist/img/chef/4-avatar.jpg
+2026-11-03 16:18:42      2707 bytes  8126fef17f071959…  apps/web/dist/img/chef/4-banner.jpg
+2026-11-03 16:18:42    935671 bytes  ae8dcfebb0b296ac…  apps/web/dist/img/chef/5-avatar.jpg
+2026-11-03 16:18:42      2337 bytes  4fbcc699a8b8d8c9…  apps/web/dist/img/chef/5-banner.jpg
+2026-11-03 16:18:42    881988 bytes  cdeaf4fb99cd20c8…  apps/web/dist/img/chef/6-avatar.jpg
+2026-11-03 16:18:42      2430 bytes  9db66d61377aec00…  apps/web/dist/img/chef/6-banner.jpg
+2026-11-03 16:18:42      1601 bytes  a8c63c09807a2bd2…  apps/web/dist/img/chef/7-avatar.jpg
+2026-11-03 16:18:42      2487 bytes  15fc61d903db2bc7…  apps/web/dist/img/chef/7-banner.jpg
+2026-11-03 16:18:42      1566 bytes  947eb8f4dc45e723…  apps/web/dist/img/chef/8-avatar.jpg
+2026-11-03 16:18:42      2648 bytes  22674e6779b64e5b…  apps/web/dist/img/chef/8-banner.jpg
+2026-11-03 16:18:42      1994 bytes  3c1850e1be87c96c…  apps/web/dist/img/dish/1.jpg
+2026-11-03 16:18:42      2010 bytes  9636a500f38d5aa1…  apps/web/dist/img/dish/10.jpg
+2026-11-03 16:18:42      2346 bytes  38eb71725077e30d…  apps/web/dist/img/dish/11.jpg
+2026-11-03 16:18:42      1938 bytes  d6f25c265468e3de…  apps/web/dist/img/dish/12.jpg
+2026-11-03 16:18:42      2001 bytes  d4a82794a602d376…  apps/web/dist/img/dish/13.jpg
+2026-11-03 16:18:42      2184 bytes  99daec6c774c02f6…  apps/web/dist/img/dish/14.jpg
+2026-11-03 16:18:42      1955 bytes  f54cbe283b6f0aa3…  apps/web/dist/img/dish/15.jpg
+2026-11-03 16:18:42      2157 bytes  e8c28e16b60a56f9…  apps/web/dist/img/dish/16.jpg
+2026-11-03 16:18:42      2148 bytes  776ee31e24e4ae36…  apps/web/dist/img/dish/17.jpg
+2026-11-03 16:18:42      1984 bytes  2778bb15e949accc…  apps/web/dist/img/dish/18.jpg
+2026-11-03 16:18:42      2250 bytes  9237e306b775bd58…  apps/web/dist/img/dish/19.jpg
+2026-11-03 16:18:42      2154 bytes  ff2f2cec25f95a65…  apps/web/dist/img/dish/2.jpg
+2026-11-03 16:18:42      1998 bytes  fd7418dafcac97a7…  apps/web/dist/img/dish/20.jpg
+2026-11-03 16:18:42      1894 bytes  6716830b0c3fa0fc…  apps/web/dist/img/dish/21.jpg
+2026-11-03 16:18:42      2243 bytes  7ac7d529eae6928b…  apps/web/dist/img/dish/22.jpg
+2026-11-03 16:18:42      1872 bytes  2617526416e76c8e…  apps/web/dist/img/dish/23.jpg
+2026-11-03 16:18:42      1989 bytes  c512f0a58d5b0a6f…  apps/web/dist/img/dish/24.jpg
+2026-11-03 16:18:42      2378 bytes  c02f29e10a44ded7…  apps/web/dist/img/dish/25.jpg
+2026-11-03 16:18:42      1962 bytes  0e8d9eec22d1afcf…  apps/web/dist/img/dish/26.jpg
+2026-11-03 16:18:42      2059 bytes  3a3fc67ca43a2ed1…  apps/web/dist/img/dish/27.jpg
+2026-11-03 16:18:42      2270 bytes  8ab1b020cb81c6d8…  apps/web/dist/img/dish/28.jpg
+2026-11-03 16:18:42      1985 bytes  b69608ce70952b38…  apps/web/dist/img/dish/29.jpg
+2026-11-03 16:18:42      2093 bytes  a8b9ca851e40daba…  apps/web/dist/img/dish/3.jpg
+2026-11-03 16:18:42      2057 bytes  372944ab84312ce4…  apps/web/dist/img/dish/30.jpg
+2026-11-03 16:18:42      2050 bytes  6e9c07b06caf7862…  apps/web/dist/img/dish/31.jpg
+2026-11-03 16:18:42      1942 bytes  248aa69609f9568c…  apps/web/dist/img/dish/32.jpg
+2026-11-03 16:18:42      2286 bytes  192f0000c4e5224b…  apps/web/dist/img/dish/33.jpg
+2026-11-03 16:18:42      2049 bytes  a3602e8a9d2300e7…  apps/web/dist/img/dish/34.jpg
+2026-11-03 16:18:42      1907 bytes  3f3fd91962ece45f…  apps/web/dist/img/dish/35.jpg
+2026-11-03 16:18:42      2318 bytes  5176d2444a88e625…  apps/web/dist/img/dish/36.jpg
+2026-11-03 16:18:42      1899 bytes  47570976f9ff4d71…  apps/web/dist/img/dish/37.jpg
+2026-11-03 16:18:42      1972 bytes  5a93e3548c3b5a9f…  apps/web/dist/img/dish/38.jpg
+2026-11-03 16:18:42      2256 bytes  67297e8a18871964…  apps/web/dist/img/dish/39.jpg
+2026-11-03 16:18:42      1978 bytes  d5d75315396ef5dd…  apps/web/dist/img/dish/4.jpg
+2026-11-03 16:18:42      1909 bytes  46db75190f0c1f46…  apps/web/dist/img/dish/40.jpg
+2026-11-03 16:18:42      2185 bytes  df9d06a02cfd933d…  apps/web/dist/img/dish/5.jpg
+2026-11-03 16:18:42      1945 bytes  16a72d8f539dd13f…  apps/web/dist/img/dish/6.jpg
+2026-11-03 16:18:42      1841 bytes  47a6ad7896120a63…  apps/web/dist/img/dish/7.jpg
+2026-11-03 16:18:42      2355 bytes  c2ceb400093f8d86…  apps/web/dist/img/dish/8.jpg
+2026-11-03 16:18:42      1955 bytes  6266ead444ff6d65…  apps/web/dist/img/dish/9.jpg
+2026-11-06 18:20:33       890 bytes  e784c9e148ea934f…  apps/web/dist/index.html
+
+## apps/admin/dist
+2026-11-06 18:38:27       111 bytes  ddc38ffe5ae25054…  apps/admin/dist/assets/index-Dq3KEbjF.css
+2026-11-06 18:38:27   1035200 bytes  b615a24635ff416b…  apps/admin/dist/assets/index-DrerDlLd.js
+2026-11-03 16:18:41       271 bytes  dee1be02d1aa4320…  apps/admin/dist/favicon.svg
+2026-11-06 18:38:27       508 bytes  7facc1e3398e67d0…  apps/admin/dist/index.html

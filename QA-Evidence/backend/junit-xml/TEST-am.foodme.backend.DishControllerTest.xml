@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="am.foodme.backend.DishControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-06T14:34:56" hostname="<host>" time="0.028">
+  <properties/>
+  <testcase name="getActiveDishesForChef_firstResultIsLavashWrap()" classname="am.foodme.backend.DishControllerTest" time="0.017"/>
+  <testcase name="getActiveDishesForChef_returnsOnlyActiveDishes()" classname="am.foodme.backend.DishControllerTest" time="0.01"/>
+  <system-out><![CDATA[{"@timestamp":"2026-11-06T18:34:56.4974248+04:00","@version":"1","message":"Could not detect default configuration classes for test class [am.foodme.backend.DishControllerTest]: DishControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.","logger_name":"org.springframework.test.context.support.AnnotationConfigContextLoaderUtils","thread_name":"Test worker","level":"INFO","level_value":20000,"app":"foodme-backend"}
+{"@timestamp":"2026-11-06T18:34:56.502623+04:00","@version":"1","message":"Found @SpringBootConfiguration am.foodme.backend.FoodmeBackendApplication for test class am.foodme.backend.DishControllerTest","logger_name":"org.springframework.boot.test.context.SpringBootTestContextBootstrapper","thread_name":"Test worker","level":"INFO","level_value":20000,"app":"foodme-backend"}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

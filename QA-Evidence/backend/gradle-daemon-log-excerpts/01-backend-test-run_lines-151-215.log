@@ -1,0 +1,65 @@
+2026-11-06T18:33:55.363+0400 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 30: Received non-IO message from client: Build{id=92c80e15-bacd-48a4-9391-d52c6b2b1f50, currentDir=<repo>\apps\backend}
+2026-11-06T18:33:55.363+0400 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=92c80e15-bacd-48a4-9391-d52c6b2b1f50, currentDir=<repo>\apps\backend}.
+2026-11-06T18:33:55.363+0400 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=92c80e15-bacd-48a4-9391-d52c6b2b1f50, currentDir=<repo>\apps\backend} with connection: socket connection from /127.0.0.1:51094 to /127.0.0.1:51095.
+2026-11-06T18:33:55.365+0400 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=92c80e15-bacd-48a4-9391-d52c6b2b1f50, currentDir=<repo>\apps\backend}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:51094 to /127.0.0.1:51095] after 0.0 minutes of idle
+2026-11-06T18:33:55.365+0400 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [c70a9ab9-b73f-40d7-8204-01b0ed2c25c4 port:51094, addresses:[localhost/127.0.0.1]]
+2026-11-06T18:33:55.365+0400 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [c70a9ab9-b73f-40d7-8204-01b0ed2c25c4 port:51094, addresses:[localhost/127.0.0.1]]
+2026-11-06T18:33:55.367+0400 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-11-06T18:33:55.367+0400 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-11-06T18:33:55.368+0400 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-11-06T18:33:55.368+0400 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2026-11-06T18:33:55.368+0400 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2026-11-06T18:33:55.369+0400 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=92c80e15-bacd-48a4-9391-d52c6b2b1f50, currentDir=<repo>\apps\backend}. Dispatching build started information...
+2026-11-06T18:33:55.369+0400 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 32: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@555ae63e
+2026-11-06T18:33:55.370+0400 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, PROCESSOR_LEVEL, SESSIONNAME, ALLUSERSPROFILE, PROCESSOR_ARCHITECTURE, GCM_INTERACTIVE, VSCODE_GIT_IPC_HANDLE, VSCODE_PYTHON_AUTOACTIVATE_GUARD, PSModulePath, SystemDrive, =ExitCode, COREPACK_ENABLE_AUTO_PIN, CLAUDE_CODE_ENTRYPOINT, VSCODE_INJECTION, CLAUDECODE, COLORTERM, DIRNAME, USERNAME, VSCODE_GIT_ASKPASS_NODE, TERM_PROGRAM_VERSION, GIT_ASKPASS, ProgramFiles(x86), CHROME_CRASHPAD_PIPE_NAME, APP_HOME, DEFAULT_JVM_OPTS, PATHEXT, DriverData, OneDriveConsumer, GIT_TERMINAL_PROMPT, AI_AGENT, NoDefaultCurrentDirectoryInExePath, CLAUDE_CODE_SSE_PORT, ProgramData, ProgramW6432, HOMEPATH, PROCESSOR_IDENTIFIER, ProgramFiles, PUBLIC, windir, EFC_10784_1592913036, ZES_ENABLE_SYSMAN, LOCALAPPDATA, USERDOMAIN, LOGONSERVER, JAVA_HOME, PROMPT, GIT_EDITOR, LANG, CLAUDE_CODE_MESSAGING_TOKEN, VSCODE_GIT_ASKPASS_MAIN, OneDrive, =C:, APPDATA, CLAUDE_CODE_SESSION_ID, JAVA_EXE, VSCODE_GIT_ASKPASS_EXTRA_ARGS, CLAUDE_CODE_SESSION_ATTENDED, NO_COLOR, CLAUDE_CODE_CHILD_SESSION, CommonProgramFiles, Path, CLAUDE_PID, EFC_10784_4126798990, OS, TERM_PROGRAM, COMPUTERNAME, PYTHONIOENCODING, CLAUDE_CODE_MESSAGING_SOCKET, PROCESSOR_REVISION, CLASSPATH, CommonProgramW6432, ComSpec, APP_BASE_NAME, PSExecutionPolicyPreference, SystemRoot, TEMP, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), NUMBER_OF_PROCESSORS]
+2026-11-06T18:33:55.371+0400 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 30: received class org.gradle.launcher.daemon.protocol.CloseInput
+2026-11-06T18:33:55.371+0400 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 30: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@3298dcc5
+2026-11-06T18:33:55.374+0400 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2026-11-06T18:33:55.374+0400 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 2644). The daemon log file: %USERPROFILE%\.gradle\daemon\8.6\daemon-2644.out.log
+2026-11-06T18:33:55.375+0400 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 512 MiB]
+2026-11-06T18:33:55.376+0400 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+2026-11-06T18:33:55.376+0400 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+2026-11-06T18:33:55.377+0400 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2026-11-06T18:33:55.377+0400 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=310792cd-47ae-45f6-b412-c6818be58244,javaHome=C:\Program Files\Eclipse Adoptium\jdk-17.0.21.9-hotspot,daemonRegistryDir=%USERPROFILE%\.gradle\daemon,pid=2644,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+
+ChefControllerTest > getChefById_returnsChefWithDishes() PASSED
+
+ChefControllerTest > getActiveChefs_returnsActiveChefsOnly() PASSED
+
+CustomerAuthControllerTest > register_returnsTokenAndProfile() PASSED
+
+CustomerAuthControllerTest > login_wrongPassword_rejected() PASSED
+
+CustomerAuthControllerTest > register_duplicateEmail_rejected() PASSED
+
+CustomerAuthControllerTest > login_withRegisteredAccount_succeeds() PASSED
+
+CustomerAuthControllerTest > meAndOrders_requireCustomerToken() PASSED
+
+DishControllerTest > getActiveDishesForChef_firstResultIsLavashWrap() PASSED
+
+DishControllerTest > getActiveDishesForChef_returnsOnlyActiveDishes() PASSED
+
+OrderControllerTest > createOrder_firstOrderGetsNumber100001() PASSED
+
+OrderControllerTest > getOrderByNumber_firstOrderIsFm100001() PASSED
+
+OrderControllerTest > createOrder_cashPayment_succeeds() PASSED
+
+OrderControllerTest > createOrder_nonCashPayment_rejectedWithBadRequest() PASSED
+
+OrderControllerTest > createOrder_createdAtFallsOnToday() PASSED
+
+OrderControllerTest > createOrder_withoutToken_unauthorized() PASSED
+{"@timestamp":"2026-11-06T18:34:57.0283734+04:00","@version":"1","message":"Closing JPA EntityManagerFactory for persistence unit 'default'","logger_name":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","thread_name":"SpringApplicationShutdownHook","level":"INFO","level_value":20000,"app":"foodme-backend"}
+{"@timestamp":"2026-11-06T18:34:57.0436426+04:00","@version":"1","message":"HHH000478: Unsuccessful: drop schema foodme","logger_name":"org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl","thread_name":"SpringApplicationShutdownHook","level":"ERROR","level_value":40000,"app":"foodme-backend"}
+{"@timestamp":"2026-11-06T18:34:57.047186+04:00","@version":"1","message":"HHH000478: Unsuccessful: drop schema foodme","logger_name":"org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl","thread_name":"SpringApplicationShutdownHook","level":"ERROR","level_value":40000,"app":"foodme-backend"}
+{"@timestamp":"2026-11-06T18:34:57.047186+04:00","@version":"1","message":"HikariPool-1 - Shutdown initiated...","logger_name":"com.zaxxer.hikari.HikariDataSource","thread_name":"SpringApplicationShutdownHook","level":"INFO","level_value":20000,"app":"foodme-backend"}
+{"@timestamp":"2026-11-06T18:34:57.0509385+04:00","@version":"1","message":"HikariPool-1 - Shutdown completed.","logger_name":"com.zaxxer.hikari.HikariDataSource","thread_name":"SpringApplicationShutdownHook","level":"INFO","level_value":20000,"app":"foodme-backend"}
+
+BUILD SUCCESSFUL in 1m 30s
+5 actionable tasks: 5 executed
+2026-11-06T18:34:57.274+0400 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2026-11-06T18:34:57.303+0400 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2026-11-06T18:34:57.303+0400 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=92c80e15-bacd-48a4-9391-d52c6b2b1f50, currentDir=<repo>\apps\backend}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:51094 to /127.0.0.1:51095]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@75486136 with state Busy

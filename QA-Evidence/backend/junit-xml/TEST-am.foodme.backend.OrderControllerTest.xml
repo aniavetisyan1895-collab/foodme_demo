@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="am.foodme.backend.OrderControllerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-06T14:34:56" hostname="<host>" time="0.484">
+  <properties/>
+  <testcase name="createOrder_firstOrderGetsNumber100001()" classname="am.foodme.backend.OrderControllerTest" time="0.131"/>
+  <testcase name="getOrderByNumber_firstOrderIsFm100001()" classname="am.foodme.backend.OrderControllerTest" time="0.099"/>
+  <testcase name="createOrder_cashPayment_succeeds()" classname="am.foodme.backend.OrderControllerTest" time="0.087"/>
+  <testcase name="createOrder_nonCashPayment_rejectedWithBadRequest()" classname="am.foodme.backend.OrderControllerTest" time="0.073"/>
+  <testcase name="createOrder_createdAtFallsOnToday()" classname="am.foodme.backend.OrderControllerTest" time="0.086"/>
+  <testcase name="createOrder_withoutToken_unauthorized()" classname="am.foodme.backend.OrderControllerTest" time="0.004"/>
+  <system-out><![CDATA[{"@timestamp":"2026-11-06T18:34:56.5348652+04:00","@version":"1","message":"Could not detect default configuration classes for test class [am.foodme.backend.OrderControllerTest]: OrderControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.","logger_name":"org.springframework.test.context.support.AnnotationConfigContextLoaderUtils","thread_name":"Test worker","level":"INFO","level_value":20000,"app":"foodme-backend"}
+{"@timestamp":"2026-11-06T18:34:56.5364425+04:00","@version":"1","message":"Found @SpringBootConfiguration am.foodme.backend.FoodmeBackendApplication for test class am.foodme.backend.OrderControllerTest","logger_name":"org.springframework.boot.test.context.SpringBootTestContextBootstrapper","thread_name":"Test worker","level":"INFO","level_value":20000,"app":"foodme-backend"}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

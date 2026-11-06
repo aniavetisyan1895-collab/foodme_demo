@@ -37,6 +37,12 @@ blob-report/
 .mcp.json
 !.mcp.json.example
 
+# --- AI agent local state -------------------------------------------------
+# Machine-local Claude Code settings (personal permissions, local URLs).
+.claude/settings.local.json
+# Local action logs written by agent hooks (see .agents/README.md).
+.agents/logs/
+
 # --- IDE ------------------------------------------------------------------
 .idea/
 .vscode/

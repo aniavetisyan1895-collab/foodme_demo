@@ -1,0 +1,41 @@
+# Environment captured at collection time: 2026-11-06 19:35:14 +0400 (not during the test runs)
+
+## git
+branch: session3-qa-architecture
+HEAD:   b2adfa22cb5b9c1610f9f2db3ba4a43a14b0629c
+commit date: 2026-11-03 18:09:52 +0400
+subject: FOODQA-1: fix bug
+
+## JDK (JAVA_HOME = C:\Program Files\Eclipse Adoptium\jdk-17.0.21.9-hotspot)
+openjdk version "17.0.21" 2026-10-20
+OpenJDK Runtime Environment Temurin-17.0.21+9 (build 17.0.21+9)
+OpenJDK 64-Bit Server VM Temurin-17.0.21+9 (build 17.0.21+9, mixed mode, sharing)
+
+## Gradle wrapper
+distributionUrl=https\://services.gradle.org/distributions/gradle-8.6-bin.zip
+
+## Node / npm
+node v24.16.0
+npm 11.13.0
+
+## Playwright packages and required Chromium revisions
+web: @playwright/test 1.62.1, requires chromium 1234
+admin: @playwright/test 1.63.0, requires chromium 1243
+installed in %LOCALAPPDATA%\ms-playwright: chromium_headless_shell-1223 chromium_headless_shell-1234 chromium-1223 chromium-1234 
+
+## Google Chrome
+156.0.8078.74
+
+## PostgreSQL (registry, service)
+version: 16.15-5
+data dir: C:\Program Files\PostgreSQL\16\data
+service: postgresql-x64-16 Running
+server version reported to the backend (Flyway log line, see backend/gradle-daemon-log-excerpts/02-*.log): Database: jdbc:postgresql://localhost:5432/foodme (PostgreSQL 16.15)
+
+## Backend process serving :8081
+pid: 23384  started: 11/06/2026 19:15:49
+executable: C:\Program Files\Eclipse Adoptium\jdk-17.0.21.9-hotspot\bin\java.exe
+main class: am.foodme.backend.FoodmeBackendApplication
+classpath starts with: <repo>\apps\backend\build\classes\java\main
+parent: pid 2644 (java.exe, the Gradle daemon whose log is daemon-2644.out.log)
+GET /backoffice/ now: 404

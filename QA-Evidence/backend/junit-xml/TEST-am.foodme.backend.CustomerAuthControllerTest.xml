@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="am.foodme.backend.CustomerAuthControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-06T14:34:55" hostname="<host>" time="0.736">
+  <properties/>
+  <testcase name="register_returnsTokenAndProfile()" classname="am.foodme.backend.CustomerAuthControllerTest" time="0.255"/>
+  <testcase name="login_wrongPassword_rejected()" classname="am.foodme.backend.CustomerAuthControllerTest" time="0.163"/>
+  <testcase name="register_duplicateEmail_rejected()" classname="am.foodme.backend.CustomerAuthControllerTest" time="0.073"/>
+  <testcase name="login_withRegisteredAccount_succeeds()" classname="am.foodme.backend.CustomerAuthControllerTest" time="0.136"/>
+  <testcase name="meAndOrders_requireCustomerToken()" classname="am.foodme.backend.CustomerAuthControllerTest" time="0.106"/>
+  <system-out><![CDATA[{"@timestamp":"2026-11-06T18:34:55.7472143+04:00","@version":"1","message":"Could not detect default configuration classes for test class [am.foodme.backend.CustomerAuthControllerTest]: CustomerAuthControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.","logger_name":"org.springframework.test.context.support.AnnotationConfigContextLoaderUtils","thread_name":"Test worker","level":"INFO","level_value":20000,"app":"foodme-backend"}
+{"@timestamp":"2026-11-06T18:34:55.7531997+04:00","@version":"1","message":"Found @SpringBootConfiguration am.foodme.backend.FoodmeBackendApplication for test class am.foodme.backend.CustomerAuthControllerTest","logger_name":"org.springframework.boot.test.context.SpringBootTestContextBootstrapper","thread_name":"Test worker","level":"INFO","level_value":20000,"app":"foodme-backend"}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
